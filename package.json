@@ -1,5 +1,5 @@
 {
-  "name": "passport-fitbit-oauth2",
+  "name": "passport-fitbit-oauth2-multitenant",
   "version": "1.0.0",
   "description": "An OAuth2 passport strategy for Fitbit",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
     "example": "examples"
   },
   "dependencies": {
-    "passport-oauth2": "^1.1.2"
+    "@joewitt99/passport-dynamicoauth2": "^1.x.x"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -19,19 +19,6 @@
     "istanbul": "^0.4.4",
     "mocha": "^2.5.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thegameofcode/passport-fitbit-oauth2.git"
-  },
-  "keywords": [
-    "passport",
-    "fitbit",
-    "oauth2"
-  ],
-  "author": "Gustavo Marin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thegameofcode/passport-fitbit-oauth2/issues"
-  },
-  "homepage": "https://github.com/thegameofcode/passport-fitbit-oauth2#readme"
+  "author": "Dileep Madathil",
+  "license": "MIT"
 }
